@@ -6,19 +6,19 @@ import { settings } from '../../data/dataStore';
 
 class Card extends React.Component {
     static propTypes = {
-        title: PropTypes.node.isRequired,
+      title: PropTypes.node.isRequired,
     }
 
     static defaultProps = {
-        title: settings.cardCreatorText,
+      title: settings.cardCreatorText,
     }
 
     render() {
-        return (
-            <section className={styles.component}>
-                {this.props.title}
-            </section>
-        )
+      return (
+        <section className={styles.component}>
+          {this.props.title}
+        </section>
+      );
     }
 }
 
