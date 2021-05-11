@@ -8,6 +8,7 @@ import Card from '../Card/Card.js';
 import Icon from '../Icon/Icon.js';
 
 
+
 class Column extends React.Component {
     static propTypes = {
       title: PropTypes.string.isRequired,

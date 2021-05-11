@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Card.scss';
 import PropTypes from 'prop-types';
-import { settings } from '../../data/dataStore';
+//import { settings } from '../../data/dataStore';
 
 
 class Card extends React.Component {
@@ -9,9 +9,9 @@ class Card extends React.Component {
       title: PropTypes.node.isRequired,
     }
 
-    static defaultProps = {
-      title: settings.cardCreatorText,
-    }
+    // static defaultProps = {
+    //   title: settings.cardCreatorText,
+    // }
 
     render() {
       const {title} = this.props;
